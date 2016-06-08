@@ -122,9 +122,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll
-  jekyll-sitemap
+  github-pages (= 82)
+  json
 
 BUNDLED WITH
    1.11.2
