@@ -9,6 +9,6 @@ tags:
 ---
 
 ## This is a post
-[BMW_Concept_Vision_Efficient_Dynamics_Front.JPG](/uploads/BMW_Concept_Vision_Efficient_Dynamics_Front.JPG)
+![BMW_Concept_Vision_Efficient_Dynamics_Front.JPG](/uploads/BMW_Concept_Vision_Efficient_Dynamics_Front.JPG)
 
 Wowy
