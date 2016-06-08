@@ -26,3 +26,5 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
+codepen_username: mblode
+github_username:  mblode

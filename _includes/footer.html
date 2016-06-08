@@ -1,0 +1,22 @@
+<footer class="row footer">
+    <ul class="footer--menu">
+      <li>
+        <a href="mailto:{{ site.email }}">
+          <p><i class="fa fa-2x fa-envelope-o"></i></p>
+        </a>
+      </li>
+      {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}">
+          <p><i class="fa fa-2x fa-github"></i></p>
+        </a>
+      </li>
+      {% endif %} {% if site.codepen_username %}
+      <li>
+        <a href="https://codepen.com/{{ site.codepen_username }}">
+          <p><i class="fa fa-2x fa-codepen"></i></p>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+</footer>
