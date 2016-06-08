@@ -21,7 +21,6 @@ defaults:
   values:
     layout: page
 permalink: pretty
-
 markdown: kramdown
 kramdown:
   input: GFM
