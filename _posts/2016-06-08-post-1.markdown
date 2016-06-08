@@ -1,6 +1,11 @@
 ---
 title: post-1
 date: 2016-06-08 07:57:00 Z
+categories:
+- tech
+tags:
+- pizza
+- beer
 ---
 
 ## This is a post
