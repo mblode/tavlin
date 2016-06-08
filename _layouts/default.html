@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> {% if page.title %}
-    <title>{{ page.title }}</title>
-    {% else %}
-    <title>{{ site.name }}</title>
-    {% endif %}
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="/assets/css/main.css">
-</head>
+<html class="no-js" lang="en">
+{% include head.html %}
 
 <body>
-    <div class="wrapper">
-        {% include nav.html %}
-        {{ content }}
+    {% include header.html %}
+    <div class="row">
+        <div class="no-pad-small">
+            {{ content }}
+        </div>
     </div>
+    {% include footer.html %}
 </body>
 
 </html>
-
-

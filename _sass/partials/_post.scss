@@ -1,0 +1,39 @@
+.post {
+  margin: 10px 0;
+}
+
+.home {
+  margin-bottom: 15px;
+}
+
+.post--title {
+  font-weight: bold;
+}
+
+.post--list {
+  background: #fff;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.post--link {
+  color: inherit;
+}
+
+.post--link p,
+.post--link .post--title {
+  color: $text;
+}
+
+.post--meta {
+  font-size: 12px;
+  color: rgb(125, 125, 125);
+  margin: 0;
+  &:hover,
+  &:focus {
+    color: rgb(10, 10, 10);
+  }
+}

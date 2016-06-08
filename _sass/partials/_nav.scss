@@ -1,0 +1,35 @@
+.nav {
+  background: #fff;
+  box-shadow: 0 0 1px $dividers;
+}
+
+.nav--primary {
+  border-bottom: $border;
+  margin: 0;
+  display: flex;
+  .menu-text h3 {
+    margin: 0;
+    padding: $sm-pad 0;
+    color: $text;
+  }
+}
+
+.nav--secondary {
+  display: flex;
+  li {
+    display: inline;
+    padding: $sm-pad 0;
+    margin-right: $sm-pad;
+  }
+  a {
+    color: $secondary;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: $text;
+    }
+  }
+}
+
