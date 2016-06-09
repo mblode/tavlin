@@ -6,8 +6,6 @@ header_title: Home
 header_desc: This is a test
 ---
 
-
-
 <div class="home">
   {% for post in site.posts %}
   <a class="post--link" href="{{ post.url | prepend: site.baseurl }}">
