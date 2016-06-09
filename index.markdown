@@ -1,8 +1,12 @@
 ---
 title: Home
 layout: default
-order: 1
+header_image: https://goo.gl/OdjI42
+header_title: Home
+header_desc: This is a test
 ---
+
+
 
 <div class="home">
   {% for post in site.posts %}

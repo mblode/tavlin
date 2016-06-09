@@ -1,22 +1,12 @@
-<nav class="nav">
-  <div class="row">
-    <ul class="nav--primary">
-      <li class="menu-text">
-        <a href="{{ site.baseurl }}/">
-          <h3>{{ site.title }}</h3>
-        </a>
-      </li>
-    </ul>
-
-    <ul class="menu nav--secondary">
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for node in sorted_pages %}
-      <li>
-        <a href="{{ page.url | prepend: site.baseurl }}">
-          {{ page.title }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+{% if page.header_image != null %}
+<header class="header">
+  <div class="header--image" style="background-image:url({{ page.header_image }});background-color:#000;">
+    <div class="row">
+      <div class="column small-12">
+        <h1>{{ page.title }}</h1>
+        <h4>{{ page.header_desc }}</h4>
+      </div>
+    </div>
   </div>
-</nav>
+</header>
+{% endif %}
