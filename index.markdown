@@ -6,10 +6,6 @@ header_desc: This is a test
 layout: default
 ---
 
-1. Hello
-2. Hello
-3. Hello
-
 <div class="home">
   {% for post in site.posts %}
   <a class="post--link" href="{{ post.url | prepend: site.baseurl }}">
