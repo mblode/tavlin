@@ -9,12 +9,6 @@
     </ul>
 
     <ul class="menu nav--secondary">
-      <li>
-        <a href="{{ site.baseurl }}/">
-          Home
-        </a>
-      </li>
-
       {% for page in site.pages %}
       <li>
         <a href="{{ page.url | prepend: site.baseurl }}">
