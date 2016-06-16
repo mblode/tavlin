@@ -1,6 +1,6 @@
 ---
 title: Home
-header_image: "/uploads/BMW_Concept_Vision_Efficient_Dynamics_Front.JPG"
+header_image: 
 header_title: Home
 header_desc: This is a test
 layout: default
