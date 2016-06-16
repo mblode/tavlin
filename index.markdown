@@ -2,7 +2,7 @@
 title: Home
 header_image: 
 header_title: Home
-header_desc: This is a test
+header_desc: 
 layout: default
 ---
 
