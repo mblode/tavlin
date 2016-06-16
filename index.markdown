@@ -1,14 +1,10 @@
 ---
 title: Home
-header_image: "/uploads/BMW_Concept_Vision_Efficient_Dynamics_Front.JPG"
+header_image: 
 header_title: Home
-header_desc: This is a test
+header_desc: 
 layout: default
 ---
-
-1. Hello
-2. Hello
-3. Hello
 
 <div class="home">
   {% for post in site.posts %}
