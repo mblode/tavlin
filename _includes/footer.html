@@ -1,22 +1,28 @@
 <footer class="row footer">
-    <ul class="footer--menu">
+  <div class="column small-12 medium-6">
+    <ul class="menu simple">
+      {% for nav in site.data.nav %}
       <li>
-        <a href="mailto:{{ site.email }}">
-          <p><i class="fa fa-2x fa-envelope-o"></i></p>
+        <a href="{{ nav.href | prepend: site.baseurl }}">
+          <p>{{ nav.title }}</p>
         </a>
       </li>
-      {% if site.github_username %}
-      <li>
-        <a href="https://github.com/{{ site.github_username }}">
-          <p><i class="fa fa-2x fa-github"></i></p>
-        </a>
-      </li>
-      {% endif %} {% if site.codepen_username %}
-      <li>
-        <a href="https://codepen.io/{{ site.codepen_username }}">
-          <p><i class="fa fa-2x fa-codepen"></i></p>
-        </a>
-      </li>
-      {% endif %}
+      {% endfor %}
     </ul>
+
+    <ul class="menu simple">
+      {% for social in site.data.social %}
+      <li>
+        <a href="{{ social.href | prepend: site.baseurl }}">
+          <p>{{ social.title }}</p>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="column small-12 medium-6">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} &middot; All Rights Reserved</p>
+    <p>Site by Matthew Blode</p>
+  </div>
 </footer>

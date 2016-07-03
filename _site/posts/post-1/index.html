@@ -7,6 +7,7 @@
 
   <title>This is magic</title>
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation-flex.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/posts/post-1/">
@@ -16,10 +17,10 @@
 <body>
     <nav class="nav">
   <div class="row">
-    <ul class="nav--primary">
-      <li class="menu-text">
+    <ul class="menu nav--primary">
+      <li class="">
         <a href="/">
-          <h3>Matthew Blode</h3>
+          <h3>Tavlin</h3>
         </a>
       </li>
     </ul>
@@ -33,8 +34,14 @@
       </li>
       
       <li>
-        <a href="/about/">
-          About
+        <a href="/menu/">
+          Menu
+        </a>
+      </li>
+      
+      <li>
+        <a href="/gallery/">
+          Gallery
         </a>
       </li>
       
@@ -51,7 +58,7 @@
     
 
     <div class="row">
-        <div class="no-pad-small">
+        <div class="column small-12 no-pad-small">
             <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post--header">
@@ -75,28 +82,68 @@
         </div>
     </div>
     <footer class="row footer">
-    <ul class="footer--menu">
+  <div class="column small-12 medium-6">
+    <ul class="menu simple">
+      
       <li>
-        <a href="mailto:">
-          <p><i class="fa fa-2x fa-envelope-o"></i></p>
+        <a href="/">
+          <p>Home</p>
         </a>
       </li>
       
       <li>
-        <a href="https://github.com/mblode">
-          <p><i class="fa fa-2x fa-github"></i></p>
+        <a href="/menu/">
+          <p>Menu</p>
         </a>
       </li>
-       
+      
       <li>
-        <a href="https://codepen.io/mblode">
-          <p><i class="fa fa-2x fa-codepen"></i></p>
+        <a href="/gallery/">
+          <p>Gallery</p>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/contact/">
+          <p>Contact</p>
         </a>
       </li>
       
     </ul>
+
+    <ul class="menu simple">
+      
+      <li>
+        <a href="#">
+          <p>Facebook</p>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#">
+          <p>Twitter</p>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#">
+          <p>Instagram</p>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+
+  <div class="column small-12 medium-6">
+    <p>&copy; 2016 Tavlin &middot; All Rights Reserved</p>
+    <p>Site by Matthew Blode</p>
+  </div>
 </footer>
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+<script src="/assets/scripts/main.js"></script>
 
 </html>

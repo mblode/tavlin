@@ -6,11 +6,15 @@
     {% include nav.html %}
     {% include header.html %}
     <div class="row">
-        <div class="no-pad-small">
+        <div class="column small-12 no-pad-small">
             {{ content }}
         </div>
     </div>
     {% include footer.html %}
 </body>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+<script src="{{ "/assets/scripts/main.js" | prepend: site.baseurl }}"></script>
 
 </html>

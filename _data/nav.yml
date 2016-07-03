@@ -1,8 +1,11 @@
 - title: "Home"
   href: "/"
 
-- title: "About"
-  href: "/about/"
+- title: "Menu"
+  href: "/menu/"
+
+- title: "Gallery"
+  href: "/gallery/"
 
 - title: "Contact"
   href: "/contact/"
