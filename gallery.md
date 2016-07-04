@@ -1,0 +1,11 @@
+---
+title: Photo Gallery
+---
+
+<div class="gallery">
+  {% for image in site.photo_gallery %}
+    <li>
+      <img src="{{ image.image_path }}" alt="{{ image.title }}">
+    </li>
+  {% endfor %}
+</div>
