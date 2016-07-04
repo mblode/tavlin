@@ -1,4 +1,5 @@
 ---
+title: Photo Gallery
 ---
 
 <div class="gallery">
