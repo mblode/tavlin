@@ -4,9 +4,11 @@
   </div>
   <div class="gallery">
     {% for image in site.data.gallery %}
+      {% if image.featured %}
       <div class="column small-12 medium-4">
         <img src="{{ image.image_path }}" alt="{{ image.title }}">
       </div>
+      {% endif %}
     {% endfor %}
   </div>
   <div class="column small-12">

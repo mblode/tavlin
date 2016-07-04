@@ -1,0 +1,31 @@
+- image_path: uploads/cauliflower.jpg
+  title: Cauliflower
+  featured: true
+- image_path: uploads/chips.jpg
+  title: Chips
+- image_path: uploads/cigars.jpg
+  title: Cigars
+- image_path: uploads/dips.jpg
+  title: Dips
+- image_path: uploads/falafel.jpg
+  title: Falafel
+- image_path: uploads/hummus.jpg
+  title: Hummus
+- image_path: uploads/israeli-salad.jpg
+  title: Israeli Salad
+  featured: true
+- image_path: uploads/laffa.jpg
+  title: Laffa
+- image_path: uploads/laffa-2.jpg
+  title: Laffa 2
+- image_path: uploads/shashlik.jpg
+  title: Shashlik
+  featured: true
+- image_path: uploads/shashlik-2.jpg
+  title: Shashlik 2
+- image_path: uploads/shashlik-3.jpg
+  title: Shashlik 3
+- image_path: uploads/shashlik-4.jpg
+  title: Shashlik 4
+- image_path: uploads/shashlik-5.jpg
+  title: Shashlik 5
