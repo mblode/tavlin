@@ -1,7 +1,69 @@
 body {
+  font-family: $sans;
+  color: $text;
+}
+
+.p--large {
+  font-size: 18px;
+}
+
+.p--small {
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $serif;
 }
 
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
 h3 {
-  font-family: $sans;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 40em) {
+  .p--large {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.white {
+  color: $text-white;
+}
+
+.a--white {
+  color: $text-white !important;
+
+  &:hover {
+    color: $white !important;
+  }
+
+  &:hover:not(i) {
+    text-decoration: underline;
+  }
+}
+
+.a--black {
+  color: $text !important;
+  &:hover:not(> i) {
+    text-decoration: underline;
+  }
 }

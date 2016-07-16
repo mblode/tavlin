@@ -1,6 +1,6 @@
 .nav {
-  background: #fff;
-  box-shadow: 0 1px 4px $dividers;
+  // background: #fff;
+  // box-shadow: 0 2px 4px $dividers;
 }
 
 .nav--primary {
@@ -8,21 +8,25 @@
   margin: 0;
   h3 {
     margin: 0;
-    padding: $sm-pad 0;
     color: $text;
   }
 }
 
 .nav--secondary {
   margin: 0;
+  display: flex;
+  flex-wrap: nowraps;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
   li {
     display: inline;
-    padding: $sm-pad 0;
-    margin-right: $sm-pad;
   }
   a {
     color: $secondary;
     text-decoration: none;
+    padding-right: 0px !important;
 
     &:hover,
     &:focus,
@@ -31,4 +35,3 @@
     }
   }
 }
-

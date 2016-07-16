@@ -8,27 +8,56 @@ title: Contact Us
     <p>(03) 9972 566</p>
 
     <h3>Follow Us</h3>
-    <ul>
-      <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-      <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-      <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-    </ul>
+    {% for social in site.data.social %}
+      <p><a href="{{ social.href | prepend: site.baseurl }}" class="a--black">
+        <i class="fa {{ social.icon }} icon"></i>{{ social.title }}
+      </a></p>
+    {% endfor %}
 
     <h3>Opening Hours</h3>
-    <p>Sun: 11:30 AM - 9:30 PM</p>
-    <p>Mon: 11:30 AM - 9:30 PM</p>
-    <p>Tue: 11:30 AM - 9:30 PM</p>
-    <p>Wed: 11:30 AM - 9:30 PM</p>
-    <p>Thu: 11:30 AM - 9:30 PM</p>
-    <p>Fri: 11:30 AM - 9:30 PM</p>
-    <p>Sat: 5:30 PM - 10:00 PM</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>Sun:</td>
+          <td>11:30 AM - 9:30 PM</td>
+        </tr>
+        <tr>
+          <td>Mon:</td>
+          <td>11:30 AM - 9:30 PM</td>
+        </tr>
+        <tr>
+          <td>Tue:</td>
+          <td>11:30 AM - 9:30 PM</td>
+        </tr>
+        <tr>
+          <td>Wed:</td>
+          <td>11:30 AM - 9:30 PM</td>
+        </tr>
+        <tr>
+          <td>Thu:</td>
+          <td>11:30 AM - 9:30 PM</td>
+        </tr>
+        <tr>
+          <td>Fri:</td>
+          <td>11:30 AM - 9:30 PM</td>
+        </tr>
+        <tr>
+          <td>Sat:</td>
+          <td>5:30 PM - 10:00 PM</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <div class="column small-12 medium-6">
     <h3>Location</h3>
-    <p>678 Glen Huntly Road <br>
-    Caulfield South, 3162 Australia <br>
-    <a href="#">Get Directions</a></p>
+    <a href="https://www.google.com.au/maps/dir/''/678+Glen+Huntly+Rd,+Caulfield+South+VIC+3162/" class="a--black" target="_blank"><p>678 Glen Huntly Road <br>
+    Caulfield South, 3162 Australia <br></p></a>
+    <div class="small-gutter"></div>
+    <a href="https://www.google.com.au/maps/dir/''/678+Glen+Huntly+Rd,+Caulfield+South+VIC+3162/" target="_blank">
+      <img width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=6a+Barkly+Ave+Armadale&amp;zoom=16&amp;scale=false&amp;size=640x400&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=icon:x%7Cshadow:true%7C6a+Barkly+Ave+Armadale" alt="Google Map of 6a Barkly Ave Armadale&amp;key=AIzaSyABbh2m2de9RH5iNGIGmDTHlOr4o4aNNF0">
+    </a>
   </div>
 </div>
+<div class="medium-gutter"></div>
 

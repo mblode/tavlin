@@ -2,9 +2,11 @@ $white: #fff;
 $md-pad: 16px;
 $sm-pad: 8px;
 $dividers: rgba(0, 0, 0, .12);
-$border: 1px solid rgba(0, 0, 0, .12);
-$secondary: rgba(0, 0, 0, .44);
-$text: rgba(0, 0, 0, .80);
+$border: 1px solid rgba(0, 0, 0, 0.12);
+$secondary: rgba(0, 0, 0, .5);
+$text: rgba(0, 0, 0, .8);
+$text-white: rgba(255, 255, 255, .6);
 
-$serif: "adobe-caslon-pro", serif;
-$sans: "futura-pt", sans-serif;
+$serif: "ff-tisa-web-pro", serif;
+$sans: "brandon-grotesque", sans-serif;
+$defult: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

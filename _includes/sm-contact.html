@@ -1,19 +1,25 @@
 <div class="row">
-  <div class="column small-12 medium-6">
+<div class="medium-gutter"></div>
+  <div class="column small-12 medium-4">
     <h3>Location</h3>
     <p>678 Glen Huntly Road <br>
   Caulfield South, 3162 Australia</p>
-  <a href="#" class="button">View Map</a>
   </div>
 
-  <div class="column small-12 medium-6">
+  <div class="column small-12 medium-4 medium-text-center">
     <h3>Opening Hours</h3>
     <p>Sun - Fri: 11:30 am - 9:30 pm <br>
   Sat: 5:30 pm-10:00 pm</p>
   </div>
 
-<!--   <div class="column small-12 medium-4">
+  <div class="column small-12 medium-4 medium-text-right">
     <h3>Contact Us</h3>
     <p>(03) 9972 566</p>
-  </div> -->
+      {% for social in site.data.social %}
+        <a href="{{ social.href | prepend: site.baseurl }}" class="icon a--black">
+          <i class="fa {{ social.icon }}"></i>
+        </a>
+      {% endfor %}
+  </div>
+  <div class="medium-gutter"></div>
 </div>

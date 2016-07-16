@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gallery .columns {
+  flex: auto;
+  width: 200px;
+  margin: 5px;
+}
+
+.gallery .img {
+  width: 100%;
+  height: auto;
+}
+
