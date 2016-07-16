@@ -1,28 +1,22 @@
-<footer class="row footer">
-  <div class="column small-12 medium-6">
-    <ul class="menu simple">
-      {% for nav in site.data.nav %}
-      <li>
-        <a href="{{ nav.href | prepend: site.baseurl }}">
-          <p>{{ nav.title }}</p>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+<div class="footer--bg">
+  <footer class="row footer">
+    <div class="medium-gutter"></div>
+    <div class="column small-12 text-center">
+      <p class="white">&copy; {{ site.time | date: '%Y' }} {{ site.title }} &middot; All Rights Reserved</p>
+      <p><a href="http://matthewblode.com/" class="a--white">Site by Matthew Blode</a></p>
 
-    <ul class="menu simple">
-      {% for social in site.data.social %}
-      <li>
-        <a href="{{ social.href | prepend: site.baseurl }}">
-          <p>{{ social.title }}</p>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="column small-12 medium-6">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} &middot; All Rights Reserved</p>
-    <p>Site by Matthew Blode</p>
-  </div>
-</footer>
+      <div class="menu-centered">
+        <ul class="menu simple">
+          {% for social in site.data.social %}
+          <li>
+            <a href="{{ social.href | prepend: site.baseurl }}">
+              <i class="fa {{ social.icon }} a--white"></i>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="medium-gutter"></div>
+  </footer>
+</div>

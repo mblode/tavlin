@@ -9,13 +9,12 @@
     </ul>
 
     <ul class="menu nav--secondary">
-      {% for nav in site.data.nav %}
-      <li>
-        <a href="{{ nav.href | prepend: site.baseurl }}">
-          {{ nav.title }}
-        </a>
-      </li>
-      {% endfor %}
+      <li><a href="/">Home</a></li>
+      <li><a href="/menu/">Menus</a></li>
+      <li><a href="/gallery/">Gallery</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="javascript:void(window.open('http://widget.dimmi.com.au/entry/30187?referrerUrl=http://www.tavlin.com.au&ShowHeader=True','Dimmi','width=302,height=432,top=60,left=60'))">Book Online</a></li>
+      <li><a href="http://www.menulog.com.au/order/tavlin" target="_blank">Order Now</a></li>
     </ul>
   </div>
 </nav>

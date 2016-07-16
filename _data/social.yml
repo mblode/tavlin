@@ -1,11 +1,11 @@
 - title: "Facebook"
-  icon: "fa-facebook"
-  href: "#"
+  icon: "fa-facebook-official"
+  href: "https://www.facebook.com/tavlinfood/"
 
 - title: "Twitter"
   icon: "fa-twitter"
-  href: "#"
+  href: "https://twitter.com/tavlinfood"
 
 - title: "Instagram"
   icon: "fa-instagram"
-  href: "#"
+  href: "https://www.instagram.com/tavlinfood/"
