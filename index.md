@@ -1,6 +1,6 @@
 ---
 title: Home
-header_image:
+header_image: 
 layout: default
 ---
 
