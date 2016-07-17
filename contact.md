@@ -5,12 +5,12 @@ title: Contact Us
 <div class="row">
   <div class="column small-12 medium-6">
     <h3>Telephone</h3>
-    <p>(03) 9972 566</p>
+    <p><a href="tel://03-9972-566" class="a--black">(03) 9972 566</a></p>
 
     <h3>Follow Us</h3>
     {% for social in site.data.social %}
-      <p><a href="{{ social.href | prepend: site.baseurl }}" class="a--black">
-        <i class="fa {{ social.icon }} icon"></i>{{ social.title }}
+      <p><a href="{{ social.href | prepend: site.baseurl }}" target="_blank" class="a--black">
+        <i class="fa fa-15x {{ social.icon }} icon"></i>{{ social.title }}
       </a></p>
     {% endfor %}
 
@@ -55,7 +55,7 @@ title: Contact Us
     Caulfield South, 3162 Australia <br></p></a>
     <div class="small-gutter"></div>
     <a href="https://www.google.com.au/maps/dir/''/678+Glen+Huntly+Rd,+Caulfield+South+VIC+3162/" target="_blank">
-      <img width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=6a+Barkly+Ave+Armadale&amp;zoom=16&amp;scale=false&amp;size=640x400&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=icon:x%7Cshadow:true%7C6a+Barkly+Ave+Armadale" alt="Google Map of 6a Barkly Ave Armadale&amp;key=AIzaSyABbh2m2de9RH5iNGIGmDTHlOr4o4aNNF0">
+      <img width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=6a+Barkly+Ave+Armadale&amp;zoom=16&amp;scale=false&amp;size=640x400&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=icon:x%7Cshadow:true%7C6a+Barkly+Ave+Armadale" alt="Google Map of 6a Barkly Ave Armadale&amp;key=AIzaSyBPjcQMI0eNvA_neIB7NZ0xTyUJ4TW2asM">
     </a>
   </div>
 </div>

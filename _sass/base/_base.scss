@@ -8,7 +8,11 @@
 }
 
 .row {
-  max-width: 700px;
+  max-width: 1000px;
+}
+
+.hr--small {
+  margin: 0;
 }
 
 .small-gutter {
@@ -41,6 +45,12 @@
   border: 2px solid $white;
   font-weight: bold;
   margin: 0 5px;
+
+  &:hover,
+  &:active,
+  &:focus, {
+    background: $secondary;
+  }
 }
 
 table,
@@ -55,4 +65,8 @@ tr {
 
 td {
   padding: 3px 0 !important;
+}
+
+.fa-15x {
+  font-size: 20px !important;
 }

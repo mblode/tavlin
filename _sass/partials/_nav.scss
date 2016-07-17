@@ -1,6 +1,6 @@
 .nav {
-  // background: #fff;
-  // box-shadow: 0 2px 4px $dividers;
+  background: #fff;
+  box-shadow: 0 1px 4px $dividers;
 }
 
 .nav--primary {
@@ -26,7 +26,7 @@
   a {
     color: $secondary;
     text-decoration: none;
-    padding-right: 0px !important;
+    // padding-right: 0px !important;
 
     &:hover,
     &:focus,
