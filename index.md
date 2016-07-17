@@ -1,6 +1,6 @@
 ---
 title: Home
-header_image: 
+header_image:
 layout: default
 ---
 
@@ -33,19 +33,16 @@ layout: default
   <div class="medium-gutter"></div>
   <div class="columns small-12 medium-4">
     <h3>Restaurant</h3>
-    <hr>
     <p>Plan ahead and save time waiting with a reservation at Tavlin. We accept reservations and would be happy to assist you. Simply book online. Walk in diners are also accepted.</p>
   </div>
 
   <div class="columns small-12 medium-4">
     <h3>Take-Away</h3>
-    <hr>
     <p>an ahead and save time waiting with a reservation at Red Door Yum Cha. We accept reservations and would be happy to assist you.</p>
   </div>
 
   <div class="columns small-12 medium-4">
     <h3>Catering</h3>
-    <hr>
     <p>We also offer catering for all occasions. Please phone us to discuss your event and we will tailor a menu to your needs. We offer pick up catering only and do not do on site events or functions.</p>
   </div>
   <div class="medium-gutter"></div>
