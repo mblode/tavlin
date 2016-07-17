@@ -9,8 +9,8 @@
         <ul class="menu simple">
           {% for social in site.data.social %}
           <li>
-            <a href="{{ social.href | prepend: site.baseurl }}">
-              <i class="fa {{ social.icon }} a--white"></i>
+          <a href="{{ social.href | prepend: site.baseurl }}" target="_blank">
+              <i class="fa fa-15x {{ social.icon }} a--white"></i>
             </a>
           </li>
           {% endfor %}

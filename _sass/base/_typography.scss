@@ -1,6 +1,7 @@
 body {
   font-family: $sans;
   color: $text;
+  font-size: 16px;
 }
 
 .p--large {
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $serif;
+  font-family: $sans;
 }
 
 h1 {
@@ -32,6 +33,11 @@ h2 {
 
 h3 {
   font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -63,7 +69,20 @@ h3 {
 
 .a--black {
   color: $text !important;
-  &:hover:not(> i) {
+  &:hover:not(i) {
     text-decoration: underline;
+  }
+}
+
+.a--menu {
+  color: $secondary;
+  text-decoration: none;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  &:hover,
+  &:focus,
+  &.active {
+    color: $text;
   }
 }

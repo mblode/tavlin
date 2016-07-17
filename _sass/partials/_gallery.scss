@@ -1,16 +1,37 @@
 .gallery {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
-.gallery .columns {
-  flex: auto;
-  width: 200px;
-  margin: 5px;
+.gallery a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
 }
 
-.gallery .img {
-  width: 100%;
+@media screen and (min-width: 50em) {
+  .gallery a {
+    width: calc(25% - 6px);
+  }
+}
+
+.gallery a:hover img {
+  transform: scale(1.15);
+}
+
+.gallery figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+img {
+  border: none;
+  max-width: 100%;
   height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
 }
-
