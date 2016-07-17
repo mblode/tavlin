@@ -9,8 +9,12 @@ layout: default
 <div class="row">
   <div class="small-12 columns medium-10 large-8 medium-offset-1 large-offset-2">
     <div class="medium-gutter"></div>
-
-{% markdown about.md %}
+    {% for post in site.posts %}
+      {% if post.index == true %}
+        <h2>{{ post.title }}</h2>
+        {{ post.content }}
+      {% endif %}
+    {% endfor %}
 
     <div class="medium-gutter"></div>
   </div>

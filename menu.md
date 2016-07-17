@@ -5,11 +5,13 @@ title: Our Menus
 <div class="row">
   <div class="columns small-12 medium-10">
     {% for post in site.posts %}
-    <div id="{{ post.hash }}">
-      <h2>{{ post.title }}</h2>
-      {{ post.content }}
-    </div>
-{% endfor %}
+      {% if post.index != true %}
+      <div id="{{ post.hash }}">
+        <h2>{{ post.title }}</h2>
+        {{ post.content }}
+      </div>
+      {% endif %}
+    {% endfor %}
   </div>
 
   <div class="columns small-12 medium-2 right" data-sticky-container>
@@ -18,9 +20,11 @@ title: Our Menus
       <hr class="hr--small">
         <ul class="menu vertical">
           {% for post in site.posts %}
-            <li>
-              <a href="#{{ post.hash }}" class="a--menu">{{ post.title }}</a>
-            </li>
+            {% if post.index != true %}
+              <li>
+                <a href="#{{ post.hash }}" class="a--menu">{{ post.title }}</a>
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
     </div>
