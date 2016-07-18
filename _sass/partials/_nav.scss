@@ -19,6 +19,7 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  padding-left: 8px;
 
   li {
     display: inline;
@@ -26,7 +27,8 @@
   a {
     color: $secondary;
     text-decoration: none;
-    // padding-right: 0px !important;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
 
     &:hover,
     &:focus,
