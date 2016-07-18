@@ -30,6 +30,11 @@
   width: 100%;
 }
 
+.xl-large-gutter {
+  height: 60px;
+  width: 100%;
+}
+
 @media screen and (min-width: 40em) {
   .medium-text-center {
     text-align: center;
@@ -38,13 +43,24 @@
   .medium-text-right {
     text-align: right;
   }
+
+  .large-gutter {
+    height: 80px;
+    width: 100%;
+  }
+
+  .xl-large-gutter {
+    height: 200px;
+  }
 }
 
 .button--ghost {
-  background: transparent;
+  background: $dividers;
   border: 2px solid $white;
   font-weight: bold;
   margin: 0 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .20), 0 3px 6px rgba(0, 0, 0, .20);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, .20), 0 3px 6px rgba(0, 0, 0, .20);
 
   &:hover,
   &:active,
@@ -69,4 +85,12 @@ td {
 
 .fa-15x {
   font-size: 20px !important;
+}
+
+.shadowed {
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=4, OffY=12,
+Color='rgba(0, 0, 0, .7)')";
+  filter: url(#drop-shadow);
+  -webkit-filter: drop-shadow(0 4px 8px rgba(0,0,0,0.7));
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.7));
 }
