@@ -1,6 +1,7 @@
 ---
 title: Blog
 ---
+
 <div class="row">
   <div class="columns small-12 medium-10">
     {% for blog in site.blog %}
