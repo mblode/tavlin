@@ -3,7 +3,7 @@ title: Blog
 ---
 
 <div class="columns small-12 medium-10">
-  {% for blog in site.blogs %}
+  {% for blog in site.blog %}
     {% if blog.index != true %}
     <div id="{{ blog.hash }}">
       <h2>{{ blog.title }}</h2>
