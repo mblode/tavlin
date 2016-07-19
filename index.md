@@ -9,10 +9,10 @@ class: home
 <div class="row">
   <div class="small-12 columns medium-10 large-8 medium-offset-1 large-offset-2">
     <div class="medium-gutter"></div>
-    {% for post in site.posts %}
-      {% if post.index == true %}
-        <h2>{{ post.title }}</h2>
-        {{ post.content }}
+    {% for blog in site.blog %}
+      {% if blog.index == true %}
+        <h2>{{ blog.title }}</h2>
+        {{ blog.content }}
       {% endif %}
     {% endfor %}
 

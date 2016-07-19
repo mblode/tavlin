@@ -1,18 +1,21 @@
 ---
 ---
 
-@charset "utf-8";
+@charset 'utf-8';
 
-@import "base/vars";
-@import "base/base";
-@import "base/typography";
+@import 'base/vars';
+@import 'base/base';
+@import 'base/typography';
 
-@import "partials/nav";
-@import "partials/post";
-@import "partials/page";
-@import "partials/footer";
-@import "partials/header";
-@import "partials/hero";
-@import "partials/contact";
-@import "partials/gallery";
-@import "partials/blog";
+@import 'layouts/post';
+@import 'layouts/page';
+
+@import 'pages/contact';
+@import 'pages/gallery';
+@import 'pages/blog';
+@import 'pages/menu';
+
+@import 'partials/nav';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/hero';

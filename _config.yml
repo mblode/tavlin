@@ -23,6 +23,13 @@ defaults:
     type: pages
   values:
     layout: page
+
+- scope:
+    path: ''
+    type: blog
+  values:
+    layout: post
+    permalink: "/blog/:title/"
 permalink: pretty
 markdown: kramdown
 kramdown:

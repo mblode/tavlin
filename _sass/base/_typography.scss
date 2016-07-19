@@ -4,10 +4,6 @@ body {
   font-size: 16px;
 }
 
-.p--large {
-  font-size: 18px;
-}
-
 .p--small {
   line-height: 1.1;
 }
@@ -42,8 +38,8 @@ h4 {
 }
 
 @media screen and (min-width: 40em) {
-  .p--large {
-    font-size: 20px;
+  body {
+    font-size: 18px;
   }
 
   h2 {
@@ -85,19 +81,6 @@ h4 {
 
 .a--black:not(i) {
   text-decoration: underline;
-}
-
-.a--menu {
-  color: $secondary;
-  text-decoration: none;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-
-  &:hover,
-  &:focus,
-  &.active {
-    color: $text;
-  }
 }
 
 date,
