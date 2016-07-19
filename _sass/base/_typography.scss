@@ -99,3 +99,17 @@ h4 {
     color: $text;
   }
 }
+
+date,
+.read-more {
+  color: $secondary;
+  font-size: 14px;
+  margin: 0;
+}
+
+a date,
+a .read-more {
+  &:hover {
+    color: $text;
+  }
+}

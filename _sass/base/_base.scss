@@ -50,7 +50,7 @@
   }
 
   .xl-large-gutter {
-    height: 200px;
+    height: 100px;
   }
 }
 
@@ -88,9 +88,19 @@ td {
 }
 
 .shadowed {
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=4, OffY=12,
-Color='rgba(0, 0, 0, .7)')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=4,
+Color='rgba(0, 0, 0, .5)')";
   filter: url(#drop-shadow);
-  -webkit-filter: drop-shadow(0 4px 8px rgba(0,0,0,0.7));
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.7));
+  -webkit-filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+}
+
+img {
+  border-radius: 3px;
+}
+
+.home {
+  img {
+    margin-bottom: 10px;
+  }
 }

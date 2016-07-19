@@ -51,11 +51,11 @@ title: Contact Us
 
   <div class="column small-12 medium-6">
     <h3>Location</h3>
-    <a href="https://www.google.com.au/maps/dir/''/678+Glen+Huntly+Rd,+Caulfield+South+VIC+3162/" class="a--black" target="_blank"><p>678 Glen Huntly Road <br>
-    Caulfield South, 3162 Australia <br></p></a>
+    <a href="https://www.google.com.au/maps/dir/''/678+Glen+Huntly+Rd,+Caulfield+South+VIC+3162/" class="a--black" target="_blank"><p>678 Glen Huntly Road<br>
+    Caulfield South, 3162 Australia<br></p></a>
     <div class="small-gutter"></div>
     <a href="https://www.google.com.au/maps/dir/''/678+Glen+Huntly+Rd,+Caulfield+South+VIC+3162/" target="_blank">
-      <img width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=6a+Barkly+Ave+Armadale&amp;zoom=16&amp;scale=false&amp;size=640x400&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=icon:x%7Cshadow:true%7C6a+Barkly+Ave+Armadale" alt="Google Map of 6a Barkly Ave Armadale&amp;key=AIzaSyBPjcQMI0eNvA_neIB7NZ0xTyUJ4TW2asM">
+      <img width="100%" src="http://maps.googleapis.com/maps/api/staticmap?center=6a+Barkly+Ave+Armadale&amp;zoom=16&amp;scale=false&amp;size=640x400&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=icon:x%7Cshadow:true%7C6a+Barkly+Ave+Armadale&amp;key=AIzaSyBPjcQMI0eNvA_neIB7NZ0xTyUJ4TW2asM" alt="Google Map of 6a Barkly Ave Armadale&amp;key=AIzaSyBPjcQMI0eNvA_neIB7NZ0xTyUJ4TW2asM">
     </a>
   </div>
 </div>
