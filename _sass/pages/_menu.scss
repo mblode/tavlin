@@ -1,0 +1,13 @@
+.a--menu {
+  color: $secondary;
+  text-decoration: none;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  &:hover,
+  &:focus,
+  &.active {
+    color: $text;
+  }
+}
+
