@@ -1,7 +1,7 @@
 ---
 title: Home
-header_image: 
 layout: default
+class: home
 ---
 
 {% include hero.html %}
@@ -20,12 +20,16 @@ layout: default
   </div>
 </div>
 
-<div class="gallery--bg">
-  <div class="row">
-    <div class="columns small-12 text-center">
-      <div class="large-gutter"></div>
-      <div class="large-gutter"></div>
-    </div>
+
+<div class="row">
+  <div class="columns small-12 medium-4">
+    <img src="uploads/cigars.jpg">
+  </div>
+  <div class="columns small-12 medium-4">
+    <img src="uploads/chips.jpg">
+  </div>
+  <div class="columns small-12 medium-4">
+    <img src="uploads/shashlik-5.jpg">
   </div>
 </div>
 
@@ -38,7 +42,7 @@ layout: default
 
   <div class="columns small-12 medium-4">
     <h3>Take-Away</h3>
-    <p>an ahead and save time waiting with a reservation at Red Door Yum Cha. We accept reservations and would be happy to assist you.</p>
+    <p>At Tavlin you can order food delivery online using Menu Log. We also do take-away to pick up at our restaraunt. Just give us a call and order over the phone.</p>
   </div>
 
   <div class="columns small-12 medium-4">
@@ -49,11 +53,11 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="columns small-6">
+  <div class="columns small-12 medium-6">
     <img src="uploads/corn-salad.jpg">
   </div>
-  <div class="columns small-6">
-    <img src="uploads/cauliflower.jpg">
+  <div class="columns small-12 medium-6">
+    <img src="uploads/falafel.jpg">
   </div>
 </div>
 

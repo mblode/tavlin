@@ -5,7 +5,9 @@
 <body>
     {% include nav.html %}
     {% include header.html %}
+    <div class="{{ page.class }}">
     {{ content }}
+    </div>
     {% include footer.html %}
 </body>
 

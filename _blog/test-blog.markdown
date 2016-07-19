@@ -5,3 +5,5 @@ layout: blog
 ---
 
 Welcome to Tavlin
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit amet recusandae voluptatum suscipit placeat nostrum excepturi, corrupti hic blanditiis officiis voluptatibus numquam non impedit, dolores eum eligendi molestias vero!

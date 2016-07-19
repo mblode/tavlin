@@ -62,20 +62,29 @@ h4 {
 .a--white {
   color: $text-white !important;
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus, {
     color: $white !important;
   }
+}
 
-  &:hover:not(i) {
-    text-decoration: underline;
-  }
+.a--white:not(i) {
+  text-decoration: underline;
 }
 
 .a--black {
   color: $text !important;
-  &:hover:not(i) {
-    text-decoration: underline;
+
+  &:hover,
+  &:active,
+  &:focus, {
+    color: $secondary !important;
   }
+}
+
+.a--black:not(i) {
+  text-decoration: underline;
 }
 
 .a--menu {
@@ -87,6 +96,20 @@ h4 {
   &:hover,
   &:focus,
   &.active {
+    color: $text;
+  }
+}
+
+date,
+.read-more {
+  color: $secondary;
+  font-size: 14px;
+  margin: 0;
+}
+
+a date,
+a .read-more {
+  &:hover {
     color: $text;
   }
 }
