@@ -1,9 +1,7 @@
 ---
-title: Our Menus
 ---
 
 <div class="row">
-
   <div class="columns small-12 show-for-small-only">
     <ul class="menu">
       {% for post in site.posts %}
@@ -18,7 +16,7 @@ title: Our Menus
   <div class="columns small-12 medium-9 large-10">
     {% for post in site.posts %}
       <div id="{{ post.hash }}">
-        <h2>{{ post.title }}</h2>
+        <h1>{{ post.title }}</h1>
         {{ post.content }}
       </div>
     {% endfor %}
