@@ -20,7 +20,6 @@ defaults:
     permalink: "/menu/:title/"
 - scope:
     path: ''
-  type: pages
   values:
     layout: page
 - scope:
