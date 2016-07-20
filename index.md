@@ -37,7 +37,7 @@ class: home
   <div class="medium-gutter"></div>
   <div class="columns small-12 medium-4">
     <h3>Restaurant</h3>
-    <p>Plan ahead and save time waiting with a reservation at Tavlin. We accept reservations and would be happy to assist you. Simply book online. Walk in diners are also accepted.</p>
+    <simpla-text sid="text"><p>Plan ahead and save time waiting with a reservation at Tavlin. We accept reservations and would be happy to assist you. Simply book online. Walk in diners are also accepted.</p></simpla-text>
   </div>
 
   <div class="columns small-12 medium-4">
