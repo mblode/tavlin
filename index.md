@@ -9,10 +9,10 @@ class: home
 <div class="row">
   <div class="small-12 columns medium-10 large-8 medium-offset-1 large-offset-2">
     <div class="medium-gutter"></div>
-    {% for blog in site.blog %}
-      {% if blog.index == true %}
-        <h2>{{ blog.title }}</h2>
-        {{ blog.content }}
+    {% for post in site.posts %}
+      {% if post.index == true %}
+        <h2>{{ post.title }}</h2>
+        {{ post.content }}
       {% endif %}
     {% endfor %}
 
@@ -42,7 +42,7 @@ class: home
 
   <div class="columns small-12 medium-4">
     <h3>Take-Away</h3>
-    <p>At Tavlin you can order food delivery online using Menu Log. We also do take-away to pick up at our restaraunt. Just give us a call and order over the phone.</p>
+    <p>At Tavlin you can order food delivery online using Menu Log. We also do take-away to pick up at our restaurant. Just give us a call and order over the phone.</p>
   </div>
 
   <div class="columns small-12 medium-4">
