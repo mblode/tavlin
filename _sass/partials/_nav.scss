@@ -38,5 +38,9 @@
     &.active {
       color: $text;
     }
+
+    &.active {
+      font-weight: bold;
+    }
   }
 }
