@@ -56,7 +56,6 @@
   font-weight: bold;
   margin: 0 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 3px 6px rgba(0, 0, 0, .2);
-  // text-shadow: 0 2px 4px rgba(0, 0, 0, .20), 0 3px 6px rgba(0, 0, 0, .20);
   border-radius: 3px;
 
   &:hover,
@@ -82,14 +81,6 @@ td {
 
 .fa-15x {
   font-size: 20px !important;
-}
-
-.shadowed {
-  filter: 'progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=4,
-Color='rgba(0, 0, 0, .5)')';
-  filter: url('#drop-shadow');
-  -webkit-filter: drop-shadow(0 4px 8px rgba(0, 0, 0, .5));
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, .5));
 }
 
 img {

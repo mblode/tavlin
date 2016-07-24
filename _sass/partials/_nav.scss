@@ -1,11 +1,12 @@
 .nav {
-  background: #fff;
+  background: $white;
   box-shadow: 0 1px 4px $dividers;
 }
 
 .nav--primary {
   border-bottom: $border;
   margin: 0;
+
   h3 {
     margin: 0;
     line-height: 1;
@@ -17,7 +18,7 @@
   margin: 0;
   display: flex;
   flex-wrap: nowraps;
-  overflow-x: auto;
+  overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   padding-left: 8px;
@@ -25,6 +26,7 @@
   li {
     display: inline;
   }
+
   a {
     color: $secondary;
     text-decoration: none;
@@ -35,6 +37,10 @@
     &:focus,
     &.active {
       color: $text;
+    }
+
+    &.active {
+      font-weight: bold;
     }
   }
 }
