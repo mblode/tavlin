@@ -1,4 +1,5 @@
 ---
+title: Menu
 ---
 
 <div class="row">
