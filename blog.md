@@ -4,14 +4,15 @@ class: blog
 ---
 
 <div class="row">
-  <div class="columns small-12 medium-10">
+  <div class="columns small-12">
     {% for blog in site.blog %}
       <div class="blog--list">
         <div class="blog--data">
-          <a href="{{ blog.url }}"><h2 class="blog--title">{{ blog.title }}</h2></a>
-          <a href="{{ blog.url }}"><date>{{ blog.date | date: '%B %d, %Y' }}</date></a>
+
+          <a href="{{ blog.url }}"><h2 class="blog--title">{{ blog.title }}</h2>
+          <date>{{ blog.date | date: '%B %d, %Y' }}</date>
           <p class="blog--content">{{ blog.content | strip_html | truncatewords: 50 }}</p>
-          <a href="{{ blog.url }}"><span class="read-more">Read more...</span></a>
+          <span class="read-more">Read more...</span></a>
         </div>
       </div>
     {% endfor %}

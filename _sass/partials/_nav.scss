@@ -17,8 +17,8 @@
 .nav--secondary {
   margin: 0;
   display: flex;
-  flex-wrap: nowraps;
-  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   padding-left: 8px;
